@@ -1,0 +1,122 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 970px;
+    }
+}
+
+a, p, h1, h2, h3, .standrad_form {
+	font-family: Century Gothic, sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+a {
+	color: #359045;
+}
+
+body {
+	background-color: #e3e3e3;
+}
+
+p, h1, h2, .standrad_form {
+	margin: 3px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 45px;
+	color: #359045;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 25px;
+	color: #359045;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 16px;
+	color: white;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	color: #359045;
+	background-color: #359045;
+	height: 3px;
+}
+
+html {
+    overflow: scroll;
+} 
+
+table th {
+	text-align: left;
+	background-color: #e3e3e3;
+}
+
+table {
+	font-family: Century Gothic, sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+/* Custom tags */
+#active {
+	background-color: #359045;
+}
+
+#footer {
+	background-color: #359045;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer > p {
+	text-align: center;
+}
+
+#header {
+	height: 100px;
+}
+
+#header > img {
+	margin: 16px 15px;
+}
+
+#home_page_banner {
+	height: 250px;
+	position: relative;
+}
+
+#home_page_banner_text {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+	width: 250px;
+}
+
+#home_page_banner_text p {
+	color: white;
+}
+
+#nav_bar {
+	background-color: #17331c;
+}
+
+#nav_bar a {
+	color: white;
+}
+
+#nav_bar a:hover {
+	background-color: #515151;
+}
+
+#page {
+	background-color: white;
+	margin: 0 auto;
+}
